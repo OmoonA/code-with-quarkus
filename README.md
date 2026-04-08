@@ -96,7 +96,7 @@
 <img src="screenshots\스크린샷 2026-04-08 130356.png" width="45%" alt="네비바 정렬,로고">
 </div>
 <div align="center">
-<img src="screenshots\스크린샷 2026-04-08 130525.png" width="45%" alt="네비바 정렬,로고">
+<img src="screenshots\스크린샷 2026-04-08 130525.png" width="45%" alt="챔피언추가">
 </div>
 
 <br>
@@ -105,4 +105,36 @@
 
 ## 6주차 수업 내용
 
-###
+### 실습
+- JS 적용해보기
+<div align="center">
+<img src="screenshots\스크린샷 2026-04-08 131409.png" width="45%" alt="네비바 정렬,로고">
+</div>
+<div align="center">
+<img src="screenshots\스크린샷 2026-04-08 131630.png" width="45%" alt="네비바 정렬,로고">
+</div>
+
+
+- 검색창 구현하기
+<div align="center">
+<img src="screenshots\스크린샷 2026-04-08 141904.png" width="45%" alt="검색창">
+</div>
+<div align="center">
+<img src="screenshots\스크린샷 2026-04-08 141912.png" width="45%" alt="검색창">
+</div>
+
+
+### 자바 스크립트 기초
+
+| 구분 | 스코프 차이 | 재선언 | 재할당 | 호이스팅 | 
+| :---: | :---: | :---: | :---: | :---: |
+|var| 함수 스코프 | 가능 | 가능 | O(undefined로 초기화) |
+|let| 블록 스코프 | 불가능 | 가능 | O (TDZ 발생) |
+|const| 블록 스코프 | 불가능 | 불가능 | O (TDZ 발생) |
+
+
+
+| 제목 1 | 제목 2 | 제목 3 |
+| :--- | :---: | ---: |
+| 왼쪽 정렬 | 중앙 정렬 | 오른쪽 정렬 |
+| 데이터 1 | 데이터 2 | 데이터 3 |
