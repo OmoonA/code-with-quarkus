@@ -15,6 +15,14 @@
 [노션- 2주차 Quarkus 환경구축 자체 메뉴얼](https://www.notion.so/2-32c685f6762580c39009d41d069e7256?source=copy_link)
 재설치 혹은 학우들과 공유하기 위하여 노션으로 '설치 절차+오류대처'를 작성
 
+**Quarkus 프로젝트 기본 명령어**
+- 실행: ./mvnw quarkus:dev 
+- 종류: ctrl + c, q
+- 웹페이지 열기: w,  http://localhost:8080 로 접속
+
+
+
+
 
 ### 실습 2 : 터미널을 통한 Quarkus 실행과 index.html 파일의 조작을 통한 웹화면 구현 기초.
 <div align="center">
@@ -133,8 +141,28 @@
 |const| 블록 스코프 | 불가능 | 불가능 | O (TDZ 발생) |
 
 
+<br>
+<br>
 
-| 제목 1 | 제목 2 | 제목 3 |
-| :--- | :---: | ---: |
-| 왼쪽 정렬 | 중앙 정렬 | 오른쪽 정렬 |
-| 데이터 1 | 데이터 2 | 데이터 3 |
+## 7주차 수업 내용
+
+- search.js의 코드 분석해보기
+
+- search 기능을 구글이 아니라 웹사이트 내부 검색으로 제작
+
+- 스타일 부분을 <link rel="stylesheet" href="css/main.css"> 를 통해 외부로 연동해서 정리함
+
+- 폼 이벤트가 작동하는 방식 학습
+
+- 카테고리 전환 함수의 작동 방식 학습
+
+### 과제
+
+- 데이터 정의 추가: 유나라 멜 자헨이 검색 가능하도록 변경 (search.js에 내용 추가)
+
+</div>
+<div align="center">
+<img src="screenshots/스크린샷 2026-04-22 081158.png" width="45%" alt="검색창">
+</div>
+
+- 검색어 기능 추가: 
