@@ -97,7 +97,10 @@ const NEWS = [
 // ── 검색 실행 ────────────────────────────────────────────────
 function performSearch(query) {
     const q = query.trim().toLowerCase(); // 앞 뒤 공백제거, 소문자 변환
-    if (!q) return;
+    if (!q) {
+        showMainScreen();
+        return;
+    }
     document.getElementById("searchKeywordDisplay").textContent = `"${query}"`; // 검색어 인식
     // 챔피온 데이터에서 이름, 영문명, 역할군, 라인 중 하나라도 검색어에 포함되면
     const champResults = CHAMPIONS.filter(
@@ -173,3 +176,19 @@ document.getElementById('searchForm').addEventListener('submit', function(e) {
     const query = document.getElementById('searchInput').value;
     performSearch(query);
 });
+
+// ── 메인 화면 복구 함수 ────────────────────────────────────────────
+function showMainScreen() {
+    // 1. 검색 결과 섹션을 숨김
+    document.getElementById("searchResults").classList.add("d-none");
+    document.getElementById("searchResults").style.display = "none";
+
+    // 2. 히어로 섹션과 나머지 섹션들을 다시 표시
+    document.querySelector(".hero").classList.remove("d-none");
+    document.querySelectorAll("section:not(#searchResults)").forEach((s) => {
+        s.classList.remove("d-none");
+    });
+    
+    // 3. 입력창 비우기 (선택사항이지만 깔끔하지)
+    document.getElementById('searchInput').value = '';
+}

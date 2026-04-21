@@ -159,10 +159,10 @@
 ### 과제
 
 - 데이터 정의 추가: 유나라 멜 자헨이 검색 가능하도록 변경 (search.js에 내용 추가)
-
 </div>
 <div align="center">
 <img src="screenshots/스크린샷 2026-04-22 081158.png" width="45%" alt="검색창">
+<img src="screenshots/스크린샷 2026-04-22 082549.png" width="45%" alt="검색창">
 </div>
 
-- 검색어 기능 추가: 
+- 검색어 기능 추가: search.js에 검색내용이 없을 때 메인화면으로 돌아가는 기능 구현(showMainScreen 함수)
