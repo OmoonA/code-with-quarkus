@@ -243,4 +243,28 @@
 <br>
 <br>
 
+## 9주차 수업 내용
+- 자바스크립트 기초
+
+- 
+
+- 자바 소스코드 위치: java\org\acme
+src\main\java\org\acme\GreetingResource.java
+테스트할때 스는 쿼크스에서 제공해주는거
+=> localhost:8008/hello 하면 문구가 나온다
+- 자바 소스코드의 구조
+
+- 관계형 데이터베이스
+
+- mysql과 orm드라이버등 추가할려고 pom.xml파일 속 <dependencies> 하위에 코드 삽입
+
+-database에서 구현할때 최소한 기능을 분해하여 3파일이상으로 쪼개 놓음
+
+<br>
+<br>
+
+
 ## 트러블슈팅(Troubleshooting)
+
+<br>
+<br>
